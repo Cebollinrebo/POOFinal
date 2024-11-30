@@ -64,5 +64,7 @@ public class SIGa {
     
     public void notificarAdministrador(String mensaje) {
         System.out.println("Notificación al Administrador: " + mensaje);
-    } 
+    }
+    
+    sdasd
 }
