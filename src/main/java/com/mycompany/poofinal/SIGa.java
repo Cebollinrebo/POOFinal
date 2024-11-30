@@ -20,27 +20,15 @@ public class SIGa {
      * Verifica como esta el inventario
      */
     public void verificarInventario() {
-        try (BufferedReader reader = new BufferedReader(new FileReader(archivoProductos))) {
-            String linea;
-            boolean encontrado = false;
-            System.out.println("Verificando inventario...");
-            while ((linea = reader.readLine()) != null) {
-                String[] partes = linea.split(", ");
-                String nombreProducto = partes[0].split(": ")[1];
-                int stock = Integer.parseInt(partes[1].split(": ")[1]);
-
-                if (stock < 38) {
-                    System.out.println("Advertencia: El producto " + nombreProducto + " tiene bajo stock (" + stock + " unidades).");
-                    encontrado = true;
-                }
-            }
-            if (!encontrado) {
-                System.out.println("Todos los productos tienen suficiente stock.");
-            }
-        } catch (IOException e) {
-            System.out.println("Error al verificar el inventario: " + e.getMessage());
+        System.out.println("Verificando inventario...");
+        ArrayList<String> productosBajoStock = Producto.verificarStockDeTodo(archivoProductos);
+        System.out.println("Advertencia, los siguientes productos se encuentran con stock bajo");
+        for (String producto : productosBajoStock) {
+            System.out.println("- " + producto);
         }
+        notificarAdministrador("Algunos productos tienen bajo stock: " + productosBajoStock);
     }
+    
     /**
      * Genera el reporte de ventas
      */
