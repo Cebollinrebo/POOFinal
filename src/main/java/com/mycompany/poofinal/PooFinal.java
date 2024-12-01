@@ -352,6 +352,248 @@ public class PooFinal {
                                         """);
                         opcionSucursal = leerDatos.nextInt();
                         leerDatos.nextLine();
+
+                            switch (opcionSucursal) {
+                                case 1 -> {
+                                opcionAdmin = 0;
+                                do{
+                                    mostrarMensajeAdmin("CU");
+                                    System.out.print(""" 
+                                    1. Actualizar cartelera
+                                    2. Ver productos
+                                    3. Actualizar Stock de productos
+                                    4. Agregar Producto
+                                    5. Ver Empleados
+                                    6. Agregar empelados
+                                    7. Ver estadisticas de ventas
+                                    8. Generar Reporte de Ventas
+                                    9. Salir
+                                                     """);
+
+                                    opcionAdmin = leerDatos.nextInt();
+                                    leerDatos.nextLine();
+
+                                    switch (opcionAdmin) {
+                                        case 1 -> {
+                                        // Actualizar Cartelera
+                                        }
+                                        
+                                        case 2 -> {
+                                        // Ver Productos
+                                        }
+
+                                        case 3 -> {
+                                        // Actualizar Stock                                        
+                                        }
+
+                                        case 4 -> {
+                                        // Agregar Productos
+                                        }
+
+                                        case 5 -> {
+                                        // Ver Empleados                                        
+                                        }
+
+                                        case 6 -> {
+                                        // Agregar Empleados
+                                        }
+
+                                        case 7 -> {
+                                        // Ver Estadísticas de Ventas
+                                        }
+
+                                        case 8 -> {
+                                        // Generar Reporte de Ventas
+                                        }
+
+                                        case 9 -> { System.out.println("Regresando...");
+                                        }
+                                        default -> throw new AssertionError();
+                                    }
+                                }while(opcionAdmin != 9);
+                                }
+
+                                case 2 -> {
+                                opcionAdmin = 0;
+                                do{
+                                    mostrarMensajeAdmin("Universidad");
+                                    System.out.print(""" 
+                                    1. Actualizar cartelera
+                                    2. Ver productos
+                                    3. Actualizar Stock de productos
+                                    4. Agregar Producto
+                                    5. Ver Empleados
+                                    6. Agregar empelados
+                                    7. Ver estadisticas de ventas
+                                    8. Generar Reporte de Ventas
+                                    9. Salir
+                                                     """);
+
+                                    opcionAdmin = leerDatos.nextInt();
+                                    leerDatos.nextLine();
+
+                                    switch (opcionAdmin) {
+                                        case 1 -> {
+                                        // Actualizar Cartelera
+                                        }
+                                        
+                                        case 2 -> {
+                                        // Ver Productos
+                                        }
+
+                                        case 3 -> {
+                                        // Actualizar Stock                                        
+                                        }
+
+                                        case 4 -> {
+                                        // Agregar Productos
+                                        }
+
+                                        case 5 -> {
+                                        // Ver Empleados                                        
+                                        }
+
+                                        case 6 -> {
+                                        // Agregar Empleados
+                                        }
+
+                                        case 7 -> {
+                                        // Ver Estadísticas de Ventas
+                                        }
+
+                                        case 8 -> {
+                                        // Generar Reporte de Ventas
+                                        }
+
+                                        case 9 -> { System.out.println("Regresando...");
+                                        }
+                                        default -> throw new AssertionError();
+                                    }
+                                }while(opcionAdmin != 9);
+                                }
+
+                                case 3 -> {
+                                opcionAdmin = 0;
+                                do{
+                                    mostrarMensajeAdmin("Delta");
+                                    System.out.print(""" 
+                                    1. Actualizar cartelera
+                                    2. Ver productos
+                                    3. Actualizar Stock de productos
+                                    4. Agregar Producto
+                                    5. Ver Empleados
+                                    6. Agregar empelados
+                                    7. Ver estadisticas de ventas
+                                    8. Generar Reporte de Ventas
+                                    9. Salir
+                                                     """);
+
+                                    opcionAdmin = leerDatos.nextInt();
+                                    leerDatos.nextLine();
+
+                                    switch (opcionAdmin) {
+                                        case 1 -> {
+                                        // Actualizar Cartelera
+                                        }
+                                        
+                                        case 2 -> {
+                                        // Ver Productos
+                                        }
+
+                                        case 3 -> {
+                                        // Actualizar Stock                                        
+                                        }
+
+                                        case 4 -> {
+                                        // Agregar Productos
+                                        }
+
+                                        case 5 -> {
+                                        // Ver Empleados                                        
+                                        }
+
+                                        case 6 -> {
+                                        // Agregar Empleados
+                                        }
+
+                                        case 7 -> {
+                                        // Ver Estadísticas de Ventas
+                                        }
+
+                                        case 8 -> {
+                                        // Generar Reporte de Ventas
+                                        }
+
+                                        case 9 -> { System.out.println("Regresando...");
+                                        }
+                                        default -> throw new AssertionError();
+                                    }
+                                }while(opcionAdmin != 9);
+                                }
+
+                                case 4 -> {
+                                opcionAdmin = 0;
+                                do{
+                                    mostrarMensajeAdmin("Xochimilco");
+                                    System.out.print(""" 
+                                    1. Actualizar cartelera
+                                    2. Ver productos
+                                    3. Actualizar Stock de productos
+                                    4. Agregar Producto
+                                    5. Ver Empleados
+                                    6. Agregar empelados
+                                    7. Ver estadisticas de ventas
+                                    8. Generar Reporte de Ventas
+                                    9. Salir
+                                                     """);
+
+                                    opcionAdmin = leerDatos.nextInt();
+                                    leerDatos.nextLine();
+
+                                    switch (opcionAdmin) {
+                                        case 1 -> {
+                                        // Actualizar Cartelera
+                                        }
+                                        
+                                        case 2 -> {
+                                        // Ver Productos
+                                        }
+
+                                        case 3 -> {
+                                        // Actualizar Stock                                        
+                                        }
+
+                                        case 4 -> {
+                                        // Agregar Productos
+                                        }
+
+                                        case 5 -> {
+                                        // Ver Empleados                                        
+                                        }
+
+                                        case 6 -> {
+                                        // Agregar Empleados
+                                        }
+
+                                        case 7 -> {
+                                        // Ver Estadísticas de Ventas
+                                        }
+
+                                        case 8 -> {
+                                        // Generar Reporte de Ventas
+                                        }
+
+                                        case 9 -> { System.out.println("Regresando...");
+                                        }
+                                        default -> throw new AssertionError();
+                                    }
+                                }while(opcionAdmin != 9);
+                                }
+
+                                case 5 -> { System.out.println("Regresando al Menu Principal...");
+                                }
+                                default -> throw new AssertionError();
+                            }
                         }while(opcionSucursal != 5);
                 }
 
